@@ -7,14 +7,12 @@ Run the command below in your terminal and the installation will start *automati
 Just follow the prompts and you’ll be fine. 👌
 
 ```shell
-git clone https://github.com/mzdr/macOS.git ~/.macOS && ~/.macOS/install
+git clone https://github.com/ultradrum/macOS.git ~/.macOS && ~/.macOS/install
 ```
 
 # What will I get?
 
 1. A super 🔥 **Terminal**…
-
-    ![iTerm2 Screenshot](https://mzdr.github.io/macos/iTerm2.jpg)  
 
     Which is [iTerm2] with
 
