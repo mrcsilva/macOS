@@ -18,8 +18,7 @@ git clone https://github.com/ultradrum/macOS.git ~/.macOS && ~/.macOS/install
     Which is [iTerm2] with
 
     - [Z-Shell] \(zsh)
-    - [CamingoCode] \(13pt) as font
-    - Anonymice [Powerline] \(14pt) as non-ASCII font
+    - Anonymice [Powerline] \(15pt) as font
     - [Prezto] with [garrett prompt]
     - [Seti] color scheme
 
@@ -69,33 +68,12 @@ git clone https://github.com/ultradrum/macOS.git ~/.macOS && ~/.macOS/install
     - [Firefox]
     - [Atom]
     - [Slack]
-    - [Harvest]
-    - [Enpass]
-    - [Sequel Pro]
-    - [Dropbox]
-    - [Spectacle app]
-    - [1Clipboard]
-    - [Shiori]
     - [VLC]
+    - More to come? Maybe
 
     <sub>See [`.stack/desktop`](.stack/desktop) for the full list of desktop app that will be installed. Adjust it to your personal taste.</sub>
 
-#  
 
-6. A set of useful 🍻 **browser extensions**…
-
-    - [Ghostery]
-    - [HTTPS Everywhere]
-    - [JSONView]
-    - [EditThisCookie]
-    - [OneTab]
-
-#  
-
-<p align="center">
-    <a href="https://sebastianprein.com/">sebastianprein.com</a> ・
-    <a href="https://twitter.com/_mzdr">@_mzdr</a>
-</p>
 
 <!-- Terminal -->
 [Z-Shell]: http://www.zsh.org/
@@ -155,10 +133,3 @@ git clone https://github.com/ultradrum/macOS.git ~/.macOS && ~/.macOS/install
 [SVGO]: https://atom.io/packages/svgo
 [Todo Show]: https://atom.io/packages/todo-show
 [Tool Bar]: https://atom.io/packages/tool-bar
-
-<!-- Browser extensions -->
-[Ghostery]: https://www.ghostery.com/try-us/download-browser-extension/
-[HTTPS Everywhere]: https://www.eff.org/de/https-everywhere
-[JSONView]: http://jsonview.com/
-[EditThisCookie]: http://www.editthiscookie.com/
-[OneTab]: https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall
