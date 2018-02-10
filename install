@@ -421,13 +421,13 @@ for app in $(<$cwd/.stack/cli); do
     fi
 done
 
-# step "Desktop apps\n"
-#
-# for app in $(<$cwd/.stack/desktop); do
-#     if ! brew cask list -1 | grep -q "^${app}\$"; then
-#         run brew cask install $app
-#     fi
-# done
+step "Desktop apps\n"
+
+for app in $(<$cwd/.stack/desktop); do
+    if ! brew cask list -1 | grep -q "^${app}\$"; then
+        run brew cask install $app
+    fi
+done
 
 
 step "Fonts\n"
@@ -483,6 +483,7 @@ chapter "Restoring…"
 step "Dotfiles\n"
 run ln -sfv $cwd/.zshrc ~
 run ln -sfv $cwd/.zpreztorc ~
+run ln -sfv $cwd/.tmux.conf ~
 run ln -sfv $cwd/.gitconfig ~
 
 step "Atom preferences\n"

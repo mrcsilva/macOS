@@ -123,7 +123,7 @@
 [core]
   autocrlf = false
   editor = vim
-  excludesfile = ~/.gitignore
+  excludesfile = ~/.gitignore_global
 [advice]
   statusHints = false
 [diff]
@@ -141,4 +141,4 @@
     helper = cache --timeout=3600
 [user]
 	email = mario125silva@hotmail.com
-    name = ultradrum
+    name = Mário Silva
