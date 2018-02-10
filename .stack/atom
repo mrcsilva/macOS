@@ -25,3 +25,8 @@ svg-preview
 svgo
 todo-show
 tool-bar
+minimap
+linter-ui-default
+bracket-padder
+busy-signal
+dracula-syntax

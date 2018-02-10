@@ -2,3 +2,5 @@ git
 mas
 node
 z
+zsh-completions
+zsh-syntax-highlighting

@@ -39,6 +39,8 @@
     showInvisibles: true
     tabLength: 4
     tabType: "soft"
+  "exception-reporting":
+    userId: "c1d42f44-0d4b-4218-bc01-167c4b91d0b0"
   "find-and-replace":
     projectSearchResultsPaneSplitDirection: "right"
   "fuzzy-finder":

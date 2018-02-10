@@ -139,3 +139,6 @@
   path = .gitconfig.user
 [credential]
     helper = cache --timeout=3600
+[user]
+	email = mario125silva@hotmail.com
+    name = ultradrum
