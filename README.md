@@ -1,4 +1,8 @@
 
+# Disclaimer
+
+This was forked from user mzdr. I just changed it to what I intended
+
 # Installation
 
 Run the command below in your terminal and the installation will start *automatically*.
@@ -21,6 +25,9 @@ git clone https://github.com/ultradrum/macOS.git ~/.macOS && ~/.macOS/install
     - Anonymice [Powerline] \(15pt) as font
     - [Prezto] with [garrett prompt]
     - [Seti] color scheme
+    - Opens in fullscreen
+    - ⌘ + ⇧ + H for horizontal split
+    - ⌘ + ⇧ + V for vertical split
 
 #  
 

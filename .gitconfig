@@ -123,7 +123,7 @@
 [core]
   autocrlf = false
   editor = vim
-  excludesfile = /Users/mario/.gitignore_global
+	excludesfile = /Users/mario/.gitignore_global
 [advice]
   statusHints = false
 [diff]

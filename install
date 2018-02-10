@@ -165,8 +165,8 @@ case $(read choice; echo $choice) in
         ;;
     [yY] | * )
         echo ""
-        run defaults write NSGlobalDomain KeyRepeat -int 1
-        run defaults write NSGlobalDomain InitialKeyRepeat -int 10
+        run defaults write NSGlobalDomain KeyRepeat -int 3
+        run defaults write NSGlobalDomain InitialKeyRepeat -int 15
         ;;
 esac
 
@@ -428,11 +428,6 @@ for app in $(<$cwd/.stack/desktop); do
         run brew cask install $app
     fi
 done
-
-step "Window Manager\n"
-run brew tap crisidev/homebrew-chunkwm
-run brew install --HEAD --with-tmp-logging chunkwm
-run brew install --HEAD --with-logging  koekeishiya/formulae/skhd
 
 step "Fonts\n"
 
