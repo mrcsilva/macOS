@@ -31,6 +31,8 @@ run() {
     echo ""
 }
 
+run sudo apt-get install atom
+
 step "Atom packages/themes\n"
 
 for package in $(<$cwd/.stack/atom); do

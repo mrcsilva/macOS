@@ -13,11 +13,13 @@ Just follow the prompts and you’ll be fine. 👌
 git clone https://github.com/mrcsilva/macOS.git ~/.macOS && ~/.macOS/install
 ```
 
-To apply the customizations on Linux, instead of that command Run
+To apply the customizations on Linux, instead of that command run
 
 ```shell
 git clone https://github.com/mrcsilva/macOS.git ~/.macOS && ~/.macOS/linux-install
 ```
+
+Be aware that only Atom will be installed and modified
 
 # What will I get?
 
