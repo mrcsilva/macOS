@@ -10,7 +10,13 @@ Run the command below in your terminal and the installation will start *automati
 Just follow the prompts and you’ll be fine. 👌
 
 ```shell
-git clone https://github.com/ultradrum/macOS.git ~/.macOS && ~/.macOS/install
+git clone https://github.com/mrcsilva/macOS.git ~/.macOS && ~/.macOS/install
+```
+
+To apply the customizations on Linux, instead of that command Run
+
+```shell
+git clone https://github.com/mrcsilva/macOS.git ~/.macOS && ~/.macOS/linux-install
 ```
 
 # What will I get?
