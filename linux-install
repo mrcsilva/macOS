@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cwd="$(cd "$(dirname "$0")" && pwd)"
+
 # Script's color palette
 reset="\033[0m"
 highlight="\033[41m\033[97m"
