@@ -93,8 +93,8 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-alias zshconfig="vim ~/.macOS/.zshrc"
-export EDITOR="vim"
+alias zshconfig="nano ~/.macOS/.zshrc"
+export EDITOR="nano"
 alias pause="spotify pause"
 alias play="spotify play"
 alias nxt="spotify next"
@@ -102,12 +102,13 @@ alias prv="spotify prev"
 alias tn="tmux new"
 alias cat="ccat"
 alias gc="git clone"
-alias showHiddenFiles="defaults write com.apple.finder AppleShowAllFiles true";killall Finder
-alias hideHiddenFiles="defaults write com.apple.finder AppleShowAllFiles false";killall Finder
+alias showHiddenFiles="defaults write com.apple.finder AppleShowAllFiles true;killall Finder"
+alias hideHiddenFiles="defaults write com.apple.finder AppleShowAllFiles false;killall Finder"
 alias py="python3.6"
 alias gcmsg="gcm"
 alias mk="gcc-7"
-export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/TeX/texbin:/Volumes/Macintosh\ HD/Tania\ Silva/.vimpkg/bin:/usr/local/apache-maven-3.5.0/bin:/usr/local/opt/kwm
+alias ....="../../"
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/TeX/texbin:/usr/local/apache-maven-3.5.0/bin:/usr/local/opt/kwm:$HOME/.composer/vendor/bin
 
 #Colours
 alias colours='for i in {0..255} ; do                                                                                                                     printf "\x1b[48;5;%sm%3d\e[0m " "$i" "$i"
@@ -121,7 +122,6 @@ function homestead() {
 }
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:/tdosilva.rvm/bin"
 source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 
 #MongoDB
@@ -132,3 +132,8 @@ export PATH="$PATH:$MONGO_PATH/bin"
 export NODE_PATH='/usr/local/lib/node_modules'
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+# Flutter path
+export FLUTTER_PATH=/Users/mario/flutter/bin
+export PATH="$PATH:$FLUTTER_PATH"
+ 

@@ -37,6 +37,7 @@
     lower_case_primitives: true
   editor:
     fontFamily: "Fira Code"
+    lineHeight: 2
     showIndentGuide: true
     showInvisibles: true
     softWrap: true
@@ -65,12 +66,15 @@
     errors:
       incompleteClasspathSeverity: "ignore"
     javaHome: "/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home"
-  "linter-ui-default":
-    showPanel: true
+  "linter-ui-default": {}
   "markdown-preview":
     breakOnSingleNewline: true
     liveUpdate: false
     useGitHubStyle: true
+  minimap:
+    plugins:
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
   "split-diff":
     ignoreWhitespace: true
     syncHorizontalScroll: true
@@ -85,9 +89,14 @@
   "tree-view":
     alwaysOpenExisting: true
     autoReveal: true
+    hideVcsIgnoredFiles: true
     squashDirectoryNames: true
   welcome:
     showOnStartup: false
+".blade.html.php.text":
+  editor:
+    commentEnd: " --}}"
+    commentStart: "{{-- "
 ".json.source":
   editor:
     tabLength: 2
