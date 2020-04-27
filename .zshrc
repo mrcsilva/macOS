@@ -2,7 +2,7 @@
 #ZSH_TMUX_AUTOSTART='true'
 
 export TERM="xterm-256color"
-eval $(thefuck --alias)
+#eval $(thefuck --alias)
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
