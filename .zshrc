@@ -100,7 +100,7 @@ alias play="spotify play"
 alias nxt="spotify next"
 alias prv="spotify prev"
 alias tn="tmux new"
-alias cat="ccat"
+alias cat="cat"
 alias gc="git clone"
 alias showHiddenFiles="defaults write com.apple.finder AppleShowAllFiles true;killall Finder"
 alias hideHiddenFiles="defaults write com.apple.finder AppleShowAllFiles false;killall Finder"
@@ -137,3 +137,12 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 export FLUTTER_PATH=/Users/mario/flutter/bin
 export PATH="$PATH:$FLUTTER_PATH"
  
+# Android SDK
+export ANDROID_HOME=/Users/$USER/Library/Android/sdk
+export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
+
+# Ruby
+export PATH="/usr/local/opt/ruby/bin:$PATH"
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
