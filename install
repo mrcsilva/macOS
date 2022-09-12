@@ -526,4 +526,7 @@ step "Starting window manager\n"
 run brew services start chunkwm
 run brew services start skhd
 
+run bindkey -v
+run bindkey '^R' history-incremental-search-backward
+
 chapter "Don't forget to run :Helptags in vim! Also, restart your system.\n"
